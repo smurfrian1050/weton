@@ -228,7 +228,7 @@ if (isset($_POST['submit'])) {
     <!-- Font GoogleApis -->
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
 
-    <title>Weton</title>
+    <title>Hitung Weton</title>
 
     <style>
         * { 
@@ -306,7 +306,7 @@ if (isset($_POST['submit'])) {
                             break;
                         case 'Jodoh':
                             $x = "Jodoh";
-                            $y = "Pasangan ini memang ditakdirkan berjodoh. Mereka bisa saling menerima segala kekurangan maupun kelebihan masing2. Nasib rumah tangga dapat harmonis sampai tua.";
+                            $y = "Pasangan yang satu ini memang ditakdirkan berjodoh. Mereka bisa saling menerima segala kekurangan maupun kelebihan masing2. Nasib rumah tangga dapat harmonis sampai tua.";
                             $z = "alert-success";
                             break;
                         case 'Topo':
@@ -321,7 +321,7 @@ if (isset($_POST['submit'])) {
                             break;
                         case 'Padu':
                             $x = "Padu";
-                            $y = "Padu dalam bahasa jawa berarti cekcok atau pertengkaran. Rumah tangga pasangan ini akan sering mengalami pertikaian atau pertengkaran. Meski sering terjadi pertengkaran, nasib rumah tangga tidak sampai bercerai. Pertengkaran ini bahkan dipicu dari hal-hal yang bersifat sepele.";
+                            $y = "Padu, jika diartikan ke bahasa jawa memiliki arti cekcok atau pertengkaran. Rumah tangga pasangan ini akan sering mengalami pertikaian atau pertengkaran. Meski sering terjadi pertengkaran, nasib rumah tangga tidak sampai bercerai. Pertengkaran ini bahkan dipicu dari hal-hal yang bersifat sepele.";
                             $z = "alert-danger";
                             break;
                         case 'Sujanan':
@@ -331,7 +331,7 @@ if (isset($_POST['submit'])) {
                             break;
                         case 'Pesthi':
                             $x = "Pesthi";
-                            $y = "Rumah tangga akan berjalan dgn sgt harmonis, rukun, adem, ayem, tenteram & sejahtera sampai tua. Bisa dikatakan jika ada sedikit masalah namun tidak megganggu keharmonisan.";
+                            $y = "Rumah tangga akan berjalan dgn begitu harmonis, rukun, adem, ayem, tenteram & sejahtera sampai tua. Bisa dikatakan jika ada sedikit masalah namun tidak megganggu keharmonisan.";
                             $z = "alert-success";
                             break;
                     }
