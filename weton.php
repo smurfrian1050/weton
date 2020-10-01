@@ -38,7 +38,7 @@ function konversi($date) {
         return $r;
 
     } else {
-        echo "Inputan salah.\n";
+        echo "Input yang kamu masukkan salah.\n";
         exit();
     };
 }
@@ -64,7 +64,7 @@ function hitungWeton($satu, $dua){
 
 function keterangan($weton){
     $keterangan = [
-        "Pegat" => "Dalam bahasa jawa berarti bercerai. Pasangan ini kemungkinan akan sering menghadapi masalah dikemudian hari. Masalah itu bisa dari masalah ekonomi, perselingkuhan, kekuasaan yang bisa menyebabkan perceraian.",
+        "Pegat" => "Dalam bahasa jawa memiliki berarti bercerai. Pasangan ini kemungkinan akan sering menghadapi masalah dikemudian hari. Masalah itu bisa dari masalah ekonomi, perselingkuhan, kekuasaan yang bisa menyebabkan perceraian.",
 
         "Ratu" => "Identik dengan sosok yang dihormati. Pasangan ini bisa dikatakan sudah cocok dan berjodoh. Sangat dihargai dan disegani oleh tetangga maupun lingkungan sekitar. Bahkan tak sedikit orang sekitar yang iri dengan keharmonisannya dalam membina rumah tangga.",
 
@@ -74,7 +74,7 @@ function keterangan($weton){
         
         "Tinari" => "Pasangan ini akan mendapatkan kebahagiaan. Kemudahan dalam mencari rezeki dan tidak akan hidup berkekurangan. Hidupnya juga diliputi keberuntungan.",
         
-        "Padu" => "Padu dalam bahasa jawa berarti cekcok atau pertengkaran. Rumah tangga pasangan ini akan sering mengalami pertikaian atau pertengkaran. Meski sering terjadi pertengkaran, nasib rumah tangga tidak sampai bercerai. Pertengkaran ini bahkan dipicu dari hal-hal yang bersifat sepele.",
+        "Padu" => "Padu yang dalam bahasa jawa berarti cekcok atau pertengkaran. Rumah tangga pasangan ini akan sering mengalami pertikaian atau pertengkaran. Meski sering terjadi pertengkaran, nasib rumah tangga tidak sampai bercerai. Pertengkaran ini bahkan dipicu dari hal-hal yang bersifat sepele.",
         
         "Sujanan" => "Rumah tangga ini akan sering mengalami percekcokan & masalah perselingkuhan.",
 
@@ -130,7 +130,7 @@ function hdate($day,$month,$year) {
 }
 
 echo clear();
-echo "Masukkan tanggal lahir. Contoh: 17 08 1945"."\n";
+echo "Masukkan tanggal lahir (Sesuai Format). Contoh: 17 08 1945"."\n";
 echo "----------\n";
 echo "Orang ke-1: ";
 $date1 = konversi(trim(fgets(STDIN)));
